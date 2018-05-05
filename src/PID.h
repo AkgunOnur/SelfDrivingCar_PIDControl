@@ -9,6 +9,10 @@ public:
   double p_error;
   double i_error;
   double d_error;
+  double prev_cte;
+  double control_val;
+  float upper_limit = 1.0f;
+  float lower_limit = -1.0f;
 
   /*
   * Coefficients
