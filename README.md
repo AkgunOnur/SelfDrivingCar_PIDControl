@@ -2,7 +2,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./examples/results.GIF "Results"
+[image1]: ./examples/result.GIF "Results"
 
 ## Overview
 
@@ -28,9 +28,9 @@ There are many studies on tuning PID parameters in the literature. There are man
 Tuning process begins with the adjusting `K_p` parameter. An appropriate value that makes the model stable is chosen but it ends up with high oscillation. To overcome this problem, `K_d` parameter comes into play. `K_d` eliminates the oscillation and it gives a smoother trajectory considering the change of error. If there still exists steady state error, `K_i` parameter is added to the model. `K_i` should be much smaller than `K_p` and `K_d`. Because it has a huge effect on the model, due to the fact that it is multiplied with the summation of the error.
 
 PID Coefficients
-`K_p - 0.3`
-`K_i - 0.00001`
-`K_d - 10.0`
+- `K<sub>p</sub> - 0.3`
+- `K<sub>i</sub> - 0.00001`
+- `K<sub>d</sub> - 10.0`
 
 ## Compilation and Execution the Project
 
