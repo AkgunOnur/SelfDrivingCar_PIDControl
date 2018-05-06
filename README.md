@@ -1,8 +1,8 @@
 # PID Control
 
 [//]: # (Image References)
-
-[image1]: ./example/result.GIF "Results"
+[image1]: ./example/result.gif "Results"
+![alt text][image1]
 
 ## Overview
 
@@ -40,10 +40,7 @@ PID Coefficients:
 * Compile it `cmake .. && make`
 * Execute it `./pid`
 
-## Results
-
-![alt text][image1]
-
+## References
 
 [1] https://en.wikipedia.org/wiki/PID_controller
 
